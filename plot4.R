@@ -7,7 +7,7 @@ plot.1 <- function(data) {
 }
 
 plot.2 <- function(data) {
-    plot(data$DateTime, data$Global_active_power, 
+    plot(data$DateTime, data$Voltage, 
          type="l",
          main="",
          xlab="datetime",
